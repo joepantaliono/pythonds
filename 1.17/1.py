@@ -6,9 +6,11 @@ class Fraction:
         self.bottom = bottom
 
     def get_num(self):
+        """return numerator"""
         return self.top
 
     def get_den(self):
+        """return denominatior"""
         return self.bottom
 
 my_fraction = Fraction(3,4)
