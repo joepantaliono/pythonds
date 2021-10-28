@@ -14,3 +14,7 @@ class Fraction:
 my_fraction = Fraction(3,4)
 print(my_fraction.get_num())
 print(my_fraction.get_den())
+
+my_fraction = Fraction(36,72)
+print(my_fraction.get_num())
+print(my_fraction.get_den())
