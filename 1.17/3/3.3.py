@@ -22,6 +22,6 @@ def func_2(my_list):
            current_min = i
     return current_min
 
-list = [6,1,3,999,0.2]
+list = [4,1,16,0.3,44]
 print(func_1(list))
 print(func_2(list))
