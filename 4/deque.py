@@ -16,11 +16,11 @@ class Deque():
 
     def remove_front(self):
         """remove from front of deque"""
-        self.items.pop()
+        return self.items.pop()
 
     def remove_rear(self):
         """remove from rear"""
-        self.items.pop(0)
+        return self.items.pop(0)
 
     def view(self):
         """view current state of deque"""
