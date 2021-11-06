@@ -13,7 +13,7 @@ class UnorderedList:
     def add(self, item):
         """add new item to linked list"""
         temp = Node(item) # create new node and set item as its data
-        temp.set_next(self.head) # set pointer to previous head
+        temp.set_next(self.head) # if first node, we set next to None, indicating end of LL
         self.head = temp # new head points to new node
         # adding new node near the head will allow for traversal of newest nodes first (can only enter at head)
 
