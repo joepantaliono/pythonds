@@ -1,1 +1,1 @@
-Solutions while working through Problem Solving with Algorithms and Data Structures using Python by Brad Miller and David Ranum, Luther College
+Implementations and problem solutions for data structures and algorithms in Python
